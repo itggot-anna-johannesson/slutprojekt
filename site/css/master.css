@@ -6,7 +6,6 @@ body{
   margin: 0;
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -22,16 +21,102 @@ header{
 nav{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100vw;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /*justify-content: space-between;*/
+  width: 100%;
+
 }
 
 .navbar{
   text-decoration: none;
+  color: black;
   font-size: 42px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
+}
+
+.a{
+  flex-grow: 1;
+  background-color: ;
+  padding-left:120px;
+  padding-right:120px;
+  margin-right: 12px;
+  margin-left: 60px;
+}
+
+.b{
+  flex-grow: 1;
+  background-color: ;
+  padding-left:120px;
+  padding-right:120px;
+  margin-right: 70px;
+}
+
+.c{
+  flex-grow: 1;
+  background-color:;
+  padding-left:120px;
+  padding-right:100px;
+}
+
+.navbar:hover{
+  background-color: green;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  border-radius: 1px;
+  border: solid;
+  border-color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  box-shadow: 6px 7px 82px -15px rgba(163,163,163,1);
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+
+h1{
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #2E2E2E;
+  flex-grow: 1;
+  /*margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px;*/
+
+}
+
+h2{
+  font-family: Roboto Condensed;
+  font-style: italic;
+  font-size: 25px;
+  flex-grow: 5;
+  margin-top: 55px;
+}
+
+button{
+  /*margin-left: 500px;
+  margin-top: 20px;*/
+  flex-grow: 1;
+  border: none;
+  background-color: white;
+  /*height: 50px;*/
+}
+
+p{
+  width: 1000px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+.hide{
+  display: none;
 }

@@ -73,6 +73,7 @@ article{
   margin-bottom: 30px;
   margin-top: 30px;
   box-shadow: 6px 7px 82px -15px rgba(163,163,163,1);
+
 }
 
 .about{
@@ -108,6 +109,7 @@ button{
   border: none;
   background-color: white;
   /*height: 50px;*/
+  z-index: 9999;
 }
 
 p{
@@ -119,4 +121,27 @@ p{
 
 .hide{
   display: none;
+}
+
+input[type='checkbox'] {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+  margin-right: 20px;
+  color: white;
+}
+
+aside{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  left: 10px;
+  top: 400px;
+}
+
+.icons{
+width: 10px;
+height: 10px;
+
+}
 }

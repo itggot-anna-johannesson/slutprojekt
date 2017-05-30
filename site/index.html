@@ -12,18 +12,18 @@
         <img src="./img/header.png" alt="header" title="Create your own Bucketlist">
       </header>
       <nav>
-        <a href="#" class="navbar a" onclick="home()">Home</a>
-        <a href="#" class="navbar b">Your bucket list</a>
+        <a href="./index.html" class="navbar a" onclick="home()">Home</a>
+        <a href="./bucket_list.html" class="navbar b">Your bucket list</a>
         <a href="#" class="navbar c">Other's bucket lists</a>
       </nav>
       <div class="main">
 
-        <article class="article_one" >
-          <img src="./img/greece.jpg" alt="greece">
+        <article class="article_one list" >
+          <img src="./img/greece.jpg" alt="greece" class="list">
           <div class="about" onclick="info1()">
             <h1>Visit Greece</h1>
             <h2>Greece</h2>
-            <button type="button" name="add_to"><img src="./img/add_list.svg" alt="add_to_list"></button>
+            <button type="button" name="add_to" onclick="addToList(this)"><img src="./img/add_list.svg" alt="add_to_list" ></button>
           </div>
           <p class="information hide"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
@@ -36,7 +36,7 @@
           <div class="about">
             <h1>Watch Dolphins</h1>
             <h2>Bali</h2>
-            <button type="button" name="add_to"><img src="./img/add_list.svg" alt="add_to_list"></button>
+            <button type="button" name="add_to" onclick="addToListTwo"><img src="./img/add_list.svg" alt="add_to_list"></button>
           </div>
           <p class="information2 hide"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
@@ -49,7 +49,7 @@
           <div class="about">
             <h1>Bungee Jump</h1>
             <h2>South Africa</h2>
-            <button type="button" name="add_to"><img src="./img/add_list.svg" alt="add_to_list"></button>
+            <button type="button" name="add_to" onclick="addToListThree"><img src="./img/add_list.svg" alt="add_to_list"></button>
           </div>
           <p class="information3 hide"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit

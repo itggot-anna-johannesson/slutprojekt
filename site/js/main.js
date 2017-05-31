@@ -43,27 +43,3 @@ function home(){
   element6.classList.add('hide');
 
 }
-
-// function addToList(){
-//   var element = document.querySelector('.article_one');
-//   element2 = document.querySelector('.bucket_list')
-//   cln = element.cloneNode(true);
-//   console.log(cln);
-//   element2.appendChild(cln);
-// }
-//
-// function addToListTwo(){
-//   var element = document.querySelector('.article_two');
-//   element2 = document.querySelector('.bucket_list')
-//   cln = element.cloneNode(true);
-//   console.log(cln);
-//   element2.appendChild(cln);
-// }
-//
-// function addToListThree(){
-//   var element = document.querySelector('.article_three');
-//   element2 = document.querySelector('.bucket_list')
-//   cln = element.cloneNode(true);
-//   console.log(cln);
-  // element2.appendChild(cln);
-// }

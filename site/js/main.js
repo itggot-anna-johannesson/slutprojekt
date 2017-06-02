@@ -43,3 +43,18 @@ function home(){
   element6.classList.add('hide');
 
 }
+
+function addInformationOne(){
+  var element = document.getElementById('added1')
+  element.classList.add('animering')
+}
+
+function addInformationTwo(){
+  var element = document.getElementById('added2')
+  element.classList.add('animering')
+}
+
+function addInformationThree(){
+  var element = document.getElementById('added3')
+  element.classList.add('animering')
+}

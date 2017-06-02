@@ -27,12 +27,14 @@ nav{
 }
 
 .navbar{
+  font-family: Roboto;
+  font-weight: lighter;
+  font-style: italic;
   text-decoration: none;
-  color: black;
-  font-size: 42px;
+  color: #95989A;
+  font-size: 39px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 .a{
@@ -60,10 +62,11 @@ nav{
 }
 
 .navbar:hover{
-  background-color: green;
+  background-color: #ECFFEB;
 }
 
 article{
+  z-index:1;
   display: flex;
   flex-direction: column;
   border-radius: 1px;
@@ -86,7 +89,7 @@ h1{
   font-family: Roboto;
   font-size: 40px;
   font-weight: lighter;
-  color: #2E2E2E;
+  color: #95989A;
   flex-grow: 1;
   /*margin-top: 20px;
   margin-bottom: 10px;
@@ -100,6 +103,7 @@ h2{
   font-size: 25px;
   flex-grow: 5;
   margin-top: 55px;
+  color: #95989A;
 }
 
 button{
@@ -109,7 +113,7 @@ button{
   border: none;
   background-color: white;
   /*height: 50px;*/
-  z-index: 9999;
+  z-index: 2;
 }
 
 p{
@@ -138,7 +142,7 @@ aside{
   left: 10px;
   top: 400px;
   background-color: #ECFFEB;
-  box-shadow: 7px 9px 64px -12px rgba(0,0,0,0.75);
+  box-shadow: 6px 7px 82px -15px rgba(163,163,163,1);
 
 }
 
@@ -181,7 +185,7 @@ h4{
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  box-shadow: 7px 9px 64px -12px rgba(0,0,0,0.75);
+  box-shadow: 6px 7px 82px -15px rgba(163,163,163,1);
 
 }
 
@@ -193,8 +197,30 @@ h5{
   color: #95989A;
 }
 
-/*.twitter{
+.added{
+  position: relative;
+  left:1000px;
+  top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
   height: 50px;
-  width: 50px;*/
+  background-color: #ECFFEB;
+  box-shadow: 6px 7px 82px -15px rgba(163,163,163,1);
+  margin-bottom: -50px;
+}
+.animering{
+  animation: show 2s;
+}
+
+@keyframes show {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
 }
 }

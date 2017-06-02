@@ -19,42 +19,51 @@
       <div class="main">
 
         <article class="article_one list" >
-          <img src="./img/greece.jpg" alt="greece" class="list">
-          <div class="about" onclick="info1()">
-            <h1>Visit Greece</h1>
-            <h2>Greece</h2>
-            <button type="button" name="add_to" onclick="addToList(this)"><img src="./img/add_list.svg" alt="add_to_list" ></button>
+          <img src="./img/greece.jpg" alt="greece" class="list" onclick="info1()">
+          <div class="about">
+            <h1 onclick="info1()">Visit Greece</h1>
+            <h2 onclick="info1()">Greece</h2>
+            <button type="button" name="add_to" onclick="addInformationOne()"><img src="./img/add_list.svg" alt="add_to_list" ></button>
           </div>
           <p class="information hide"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
             in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="added" id="added1">
+              <h5>Added to your bucket list</h5>
+            </div>
         </article>
 
-        <article class="article_two" onclick="info2()">
-          <img src="./img/dolphins.jpg" alt="dolphins">
+        <article class="article_two">
+          <img src="./img/dolphins.jpg" alt="dolphins" onclick="info2()">
           <div class="about">
-            <h1>Watch Dolphins</h1>
-            <h2>Bali</h2>
-            <button type="button" name="add_to" onclick="addToListTwo"><img src="./img/add_list.svg" alt="add_to_list"></button>
+            <h1 onclick="info2()">Watch Dolphins</h1>
+            <h2 onclick="info2()">Bali</h2>
+            <button type="button" name="add_to" onclick="addInformationTwo()"><img src="./img/add_list.svg" alt="add_to_list"></button>
           </div>
           <p class="information2 hide"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
             in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="added" id="added2">
+              <h5>Added to your bucket list</h5>
+            </div>
         </article>
 
         <article class="article_three">
-          <img src="./img/bungee_jump.jpg" alt="bungee_jump">
+          <img src="./img/bungee_jump.jpg" alt="bungee_jump" onclick="info3()">
           <div class="about">
-            <h1>Bungee Jump</h1>
-            <h2>South Africa</h2>
-            <button type="button" name="add_to" onclick="addToListThree"><img src="./img/add_list.svg" alt="add_to_list"></button>
+            <h1 onclick="info3()">Bungee Jump</h1>
+            <h2 onclick="info3()">South Africa</h2>
+            <button type="button" name="add_to" onclick="addInformationThree()"><img src="./img/add_list.svg" alt="add_to_list"></button>
           </div>
           <p class="information3 hide"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
             in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="added" id="added3">
+              <h5>Added to your bucket list</h5>
+            </div>
         </article>
 
       </div>

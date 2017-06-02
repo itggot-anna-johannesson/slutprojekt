@@ -209,6 +209,7 @@ h5{
   background-color: #ECFFEB;
   box-shadow: 6px 7px 82px -15px rgba(163,163,163,1);
   margin-bottom: -50px;
+  opacity: 0;
 }
 .animering{
   animation: show 2s;
@@ -216,10 +217,13 @@ h5{
 
 @keyframes show {
   0% {
+    opacity: 0;
   }
   50% {
+    opacity: 1;
   }
   100% {
+    opacity: 0;
   }
 }
 }
